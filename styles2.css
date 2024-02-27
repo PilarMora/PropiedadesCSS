@@ -1,0 +1,83 @@
+
+
+.title{
+	color: cornflowerblue;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: xx-large;
+	font-weight: 200;
+	font-style: italic;
+	font-variant: small-caps;
+	font:500;
+	line-height: 5;
+	text-decoration:overline;
+	text-transform:capitalize;
+}
+
+.text{
+	position: relative;
+	top: auto;
+	/*right: 1%;
+	left: 2%;
+	bottom: 2%;*/
+	float: inline-end;
+	clear:left;
+	background-color: antiquewhite;
+	text-indent: 2%;
+	letter-spacing: .2cap;
+	word-spacing: -.1cap;
+	white-space: normal;
+	border-width: 2px, 2px, 2px, 2px;
+	/*border-top-width: 2px;
+	border-color:lightsteelblue pink cornflowerblue pink ;
+	border-style:dotted ;*/
+	border: dotted pink;
+	padding: 7px ;
+	padding-top: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	/*margin: 3px;*/
+	margin-top: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+
+.list{
+	list-style:lower-alpha;
+	list-style-position: outside;
+	/*list-style-image: inside url(https:imgmedia.aweita.pe/640x345/aweita/migration/imagen/2018/02/08/noticia-portada1_52.webp) ;*/
+}
+
+body {
+	/*background-color: dimgrey;
+	background-image: url(https:i.pinimg.com/564x/c7/e7/e2/c7e7e290ebd324b91d26fe3762111cc8.jpg) ;*/
+	background-repeat: repeat;
+	/*background-position: right top;
+	background-attachment: fixed;*/
+	background: url(https:i.pinimg.com/564x/c7/e7/e2/c7e7e290ebd324b91d26fe3762111cc8.jpg);
+
+}
+
+.tables{
+	border-collapse:separate;
+	border-spacing: 5px;
+	empty-cells: initial ;
+	border: 2px solid pink;
+	caption-side: top ;
+	display: inline;
+}
+
+.box{
+	width: 80%;
+	height: auto;
+	max-width: 60%;
+	min-width: 80%;
+	max-height:max-content;
+	min-height: min-content;
+	visibility:visible;
+	overflow:scroll;
+	z-index: 1;
+	cursor:grab;
+	outline:auto ;
+}
